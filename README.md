@@ -12,6 +12,7 @@ This project explores my Spotify listening history, retrieves song lyrics, and a
 
 **Repository structure:**
 
+```
 Spotify-Analysis/
 ├── data/                           # Raw and processed data
 │   ├── Lyrics_Noah_Kahan.csv        # Raw lyrics dataset
@@ -32,4 +33,4 @@ Spotify-Analysis/
 │   ├── spotify_analysis.ipynb       # Analyzes Spotify listening history and trends
 │
 └── README.md                        # Project documentation
-
+```
