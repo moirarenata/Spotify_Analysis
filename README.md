@@ -13,23 +13,22 @@ This project explores my Spotify listening history, retrieves song lyrics, and a
 **Repository structure:**
 
 Spotify-Analysis/
-│── data/                     # Raw and processed data
-│   ├── Lyrics_Noah_Kahan.csv  # Raw lyrics dataset
-│   ├── Lyrics_Noah_Kahan_bert.csv  # Lyrics with BERT sentiment scores
+│── data/                           # Raw and processed data
+│   ├── Lyrics_Noah_Kahan.csv        # Raw lyrics dataset
+│   ├── Lyrics_Noah_Kahan_bert.csv   # Lyrics with BERT sentiment scores
 │   ├── Lyrics_Noah_Kahan_Sentiment_BERT.csv  # Processed sentiment data
-│   ├── Lyrics_NoahKahan.json  # Raw lyrics JSON format
+│   ├── Lyrics_NoahKahan.json        # Raw lyrics in JSON format
 │   ├── StreamingHistory_music_0.json  # Spotify streaming history (multiple files)
 │   ├── StreamingHistory_music_1.json
 │   ├── StreamingHistory_music_2.json
 │   ├── StreamingHistory_music_3.json
 │
-│── data_viz/                 # Cleaned data used for visualization
+│── data_viz/                        # Cleaned data used for visualization
 │
-│── src/                      # Jupyter Notebooks for analysis
-│   ├── clean_lyrics_nk.ipynb  # Preprocesses and cleans song lyrics
-│   ├── scrape_lyrics_genius.ipynb  # Extracts lyrics using the Genius API
-│   ├── senti_analysis_ot.ipynb  # Applies sentiment analysis to lyrics
-│   ├── spotify_analysis.ipynb  # Analyzes Spotify listening history and trends
+│── src/                             # Jupyter Notebooks for analysis
+│   ├── clean_lyrics_nk.ipynb        # Preprocesses and cleans song lyrics
+│   ├── scrape_lyrics_genius.ipynb   # Extracts lyrics using the Genius API
+│   ├── senti_analysis_ot.ipynb      # Applies sentiment analysis to lyrics
+│   ├── spotify_analysis.ipynb       # Analyzes Spotify listening history and trends
 │
-│── README.md                  # Project documentation
-
+│── README.md                        # Project documentation
