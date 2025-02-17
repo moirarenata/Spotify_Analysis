@@ -13,8 +13,8 @@ This project explores my Spotify listening history, retrieves song lyrics, and a
 **Repository structure:**
 
 ```
-Spotify-Analysis/
-├── data/                           # Raw and processed data
+Spotify_Analysis/
+├── data/                           
 │   ├── Lyrics_Noah_Kahan.csv        # Raw lyrics dataset
 │   ├── Lyrics_Noah_Kahan_bert.csv   # Lyrics with BERT sentiment scores
 │   ├── Lyrics_Noah_Kahan_Sentiment_BERT.csv  # Processed sentiment data
